@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Footer from "@/components/footersemdados";
 import Navbar from "@/components/navBar";
-import BotaoImagem from "@/components/botaoimagem";
+import SobreaPag from "@/components/sobreaapag";
 
-export default function Home() {
+export default function SobreAPag() {
   return (
     <div>
       <Navbar/>
       <Footer/>
-      <BotaoImagem />
+      <SobreaPag/>
     </div>
     )
   }

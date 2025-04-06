@@ -3,16 +3,15 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center shadow-lg">
-      <div className="flex items-center space-x-4">
-        <div className="w-10 h-10 bg-gray-700 rounded-full"></div>
-        <span className="text-lg font-semibold">Programa de Trainee 2025.1</span>
+    <nav className="bg-orange-700 text-white py-4 px-6 flex flex-col justify-center items-center shadow-md">
+      
+      <div className="flex flex-row items-center space-x-4 w-full">
+        <div className="w-16 h-16 bg-gray-700 rounded-full"></div>
+        
       </div>
-      <div className="space-x-6">
-        <Link href="/" className="hover:underline">Início</Link>
-        <Link href="/sobre" className="hover:underline">Sobre</Link>
-        <Link href="/contato" className="hover:underline">Contato</Link>
-      </div>
+      <h1 className="text-xl font-semibold text-white hover:text-gray-400 transition-colors duration-300" style={{ textShadow: "2px 2px 4px black" }}>
+        Sobre o Julio
+      </h1>
     </nav>
   );
 };
