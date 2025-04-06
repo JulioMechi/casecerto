@@ -18,7 +18,7 @@ return (
                     Sobre Mim
                 </h1>
             </div>
-            <div className="mt-12">
+            <div className="mt-4">
                 <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-140 h-40 md:h-40 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-8'>
                     <h1
                     className="text-base md:text-sm font-bold text-center text-white drop-shadow-xl flex justify-center items-center h-full text-shadow-lg/20 text-justify"  
@@ -30,6 +30,11 @@ return (
                          junior EJEM como Trainee. Para mais informações, por favor requisitar através de "contatos"
                     </h1>
                         
+                </div>
+                <div className="mt-4 flex justify-center items-center">
+                    <audio controls>
+                        <source src="/audio/audioapresenta.mp4" type="audio/mpeg" />
+                    </audio>
                 </div>
             </div>
             
