@@ -18,7 +18,7 @@ return (
                 </h1>
             </div>
             <div className="mt-12">
-                <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-80 h-50 md:h-10 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-8'>
+                <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-80 h-50 md:h-10 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-8 transform transition-transform duration-300 hover:scale-110 hover:bg-gray-500'>
                     <Link href="/formacao">
                         <button 
                             className="text-xl md:text-xl font-bold text-center text-white drop-shadow-xl flex justify-center items-center h-full text-shadow-lg/20"  
@@ -29,10 +29,10 @@ return (
                 </div>
             </div>
             <div className="mt-4">
-                <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-80 h-50 md:h-10 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-1'>
+                <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-80 h-50 md:h-10 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-1 transform transition-transform duration-300 hover:scale-110 hover:bg-gray-500'>
                 <Link href="/experiencia">
                     <button 
-                        className="text-xl md:text-xl font-bold text-center text-white drop-shadow-xl flex justify-center items-center h-full text-shadow-lg/20"  
+                        className="text-xl md:text-xl font-bold text-center text-white drop-shadow-xl flex justify-center items-center h-full text-shadow-lg/20 "  
                         style={{ WebkitTextStroke: '1px black' }}
                     > Experiência
                     </button>
@@ -40,7 +40,7 @@ return (
                 </div>
             </div>
             <div className="mt-6">
-                <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-80 h-50 md:h-10 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-1'>
+                <div className='container bg-orange-700 mx-auto y-200 w-80 md:w-80 h-50 md:h-10 px-6 py-4 rounded-md shadow-xl border-3 border-dashed mb-1 transform transition-transform duration-300 hover:scale-110 hover:bg-gray-500'>
                     <button 
                         className="text-xl md:text-xl font-bold text-center text-white drop-shadow-xl flex justify-center items-center h-full text-shadow-lg/20"  
                         style={{ WebkitTextStroke: '1px black' }}

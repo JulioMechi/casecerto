@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import Link from "next/link";
 
@@ -13,6 +14,19 @@ const Navbarcomdados: React.FC = () => {
         <Link href="/inicio" className="text-xl font-semibold pt-2 text-shadow-md stroke-black" style={{ WebkitTextStroke: '1px black' }}>Início</Link>
         <Link href="/sobre" className="text-xl font-semibold pt-2 text-shadow-md stroke-black" style={{ WebkitTextStroke: '1px black' }}>Sobre</Link>
         <Link href="/contato" className="text-xl font-semibold pt-2 text-shadow-md stroke-black" style={{ WebkitTextStroke: '1px black' }}>Contato</Link>
+        <style jsx>{`
+                    @keyframes fadeIn {
+                        from {
+                            opacity: 0;
+                        }
+                        to {
+                            opacity: 1;
+                        }
+                    }
+                    .fade-in-animation {
+                        animation: fadeIn 1.5s ease-in-out;
+                    }
+        `}</style>
       </div>
     </nav>
   );
