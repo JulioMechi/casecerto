@@ -9,7 +9,8 @@ const Navbar: React.FC = () => {
         <div className="w-16 h-16 bg-gray-700 rounded-full"></div>
         
       </div>
-      <h1 className="text-xl font-semibold text-white hover:text-gray-400 transition-colors duration-300" style={{ textShadow: "2px 2px 4px black" }}>
+      <h1 className="p-2 text-xl md:text-xl font-bold text-center text-white drop-shadow-xl flex justify-center items-center h-full text-shadow-lg/20"  
+                style={{ WebkitTextStroke: '1px black' }}>
         Sobre o Julio
       </h1>
     </nav>

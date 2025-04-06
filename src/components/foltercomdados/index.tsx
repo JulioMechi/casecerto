@@ -13,13 +13,13 @@ const Footercomdados: React.FC = () => {
           <Link href="/privacidade" className="hover:underline text-xl" style={{ WebkitTextStroke: '0.75px black' }}>Privacidade</Link>
         </nav>
         <div className="flex space-x-4">
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://x.com/juliomechi?t=tgmoEMYU7lgOBbUEvld1uQ&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <FaTwitter className="text-2xl hover:text-blue-500" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/JulioMechi" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub className="text-2xl hover:text-gray-600" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/julio-cesar-nunes-mechi-8629b135a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="text-2xl hover:text-blue-600" />
           </a>
         </div>
