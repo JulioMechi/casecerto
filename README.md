@@ -1,7 +1,57 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Nome do Seu Projeto
+Portifólio usando NEXT
+## Descrição
+Nesse projeto, usei de next e tailwind para fazer um portifólio com diversas pags, imagens, animações e até audio.
 
+
+## Funcionalidades Principais
+
+Botões funcionais
+Animação
+Components Clientes
+
+## Tecnologias Utilizadas
+
+Tailwind
+TS
+Next
+
+## Instalação
+
+Forneça instruções claras sobre como instalar e configurar o seu projeto localmente.
+
+1.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://www.google.com/search?q=https://github.com/seu-usuario/seu-repositorio.git)
+    ```
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd seu-repositorio
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install  # ou yarn install
+    ```
+4.  Configure as variáveis de ambiente (se necessário):
+    ```
+    # Exemplo de um arquivo .env
+    API_KEY=sua_chave_api
+    DATABASE_URL=sua_url_do_banco
+    ```
+    Crie um arquivo `.env` na raiz do projeto e adicione as variáveis necessárias.
+5.  Execute as migrações do banco de dados (se aplicável):
+    ```bash
+    npx prisma migrate dev --name init # Exemplo com Prisma
+    # ou outro comando dependendo da sua ORM
+    ```
+
+## Como Usar
+
+O uso do projeto é bem simples, apenas instale as dependencias npx, tailwind e text que funcionará, para fazer mais coisas precisaria apenas entender sobre funções, animações, frontend e outras funcionalidades do next
+
+Mais explicações:
 First, run the development server:
 
 ```bash
