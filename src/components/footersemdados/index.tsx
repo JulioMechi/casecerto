@@ -19,4 +19,5 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+//Mesmo que falei no passado, é a parte inferior mas sem dados
 

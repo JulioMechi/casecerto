@@ -3,7 +3,7 @@ import React from "react";
 import Image from 'next/image'; 
 import Link from "next/link";
 
-
+//Essa pag demonstra a minha formação, a tabela da pag do mack basicamente, os comandos foram intuitivos com o tempo
 const Formacao: React.FC = () => {
 return (
    

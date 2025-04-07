@@ -87,6 +87,7 @@ return (
     </div>
 );
 };
+//Essa é basicamente a tabela com meus contatos, com animaçõespadr~s do tailwind e a fade in que tive que fazer a parte.
 
 export default Contato;
 

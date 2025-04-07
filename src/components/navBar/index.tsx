@@ -16,5 +16,5 @@ const Navbar: React.FC = () => {
     </nav>
   );
 };
-
+//A nav bar é basicamente a parte de cima, essa aqui não tem dados, é só usada na pag do panda para estética
 export default Navbar;

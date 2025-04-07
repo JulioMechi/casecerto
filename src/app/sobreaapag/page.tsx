@@ -12,3 +12,5 @@ export default function SobreAPag() {
     </div>
     )
   }
+
+  //Página para explicar a aplicação

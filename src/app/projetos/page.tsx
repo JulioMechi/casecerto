@@ -8,3 +8,5 @@ export default function Projetos() {
       </div>
       )
     }
+
+    // Página que não tá carregando

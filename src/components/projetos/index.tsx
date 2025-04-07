@@ -35,8 +35,10 @@ export default function PostProjects() {
                         <h2>{post.nome}</h2>
                         <p>{post.descricao}</p>
                     </div>
-                )) || <p>Loading...</p>}
+                )) || <p></p>}
             </div>
         </div>
     );
 }
+
+//Essa é a que deu errado, de projetos que tentei usar api e deu ruim

@@ -29,3 +29,4 @@ const Footercomdados: React.FC = () => {
 };
 
 export default Footercomdados;
+//Esse aqui é o que já estava no projeto com pequenas alterações como em cor, no do panda eu tirei as infos para não ficar estranho

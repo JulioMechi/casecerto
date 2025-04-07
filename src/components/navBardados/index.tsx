@@ -32,5 +32,5 @@ const Navbarcomdados: React.FC = () => {
     </nav>
   );
 };
-
+//Essa nav já tem dados, parte de cima que aparece no restante das pags
 export default Navbarcomdados;

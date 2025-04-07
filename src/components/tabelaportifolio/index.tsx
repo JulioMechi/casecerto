@@ -69,5 +69,5 @@ return (
 );
 };
 
-
+//Já esse componente é a tabela principal da pag inicial, que leva a empresas, prj e formação
 export default TabelaPortifolio;

@@ -9,6 +9,5 @@ let projetos = [
 export async function GET() {
     return NextResponse.json(projetos);
 }
-
-
+// Essa pagina era eu tentando fazer a api, a constatnte ta pegando o dicionario e respondendo eles
     

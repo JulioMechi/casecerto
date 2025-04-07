@@ -12,3 +12,4 @@ export default function SobreMinPag() {
     </div>
   );
 }
+//Página do sobre mim, carrega dado de audio também.

@@ -55,5 +55,5 @@ return (
 );
 };
 
-
+//Esse é o componente que demostra as infos da pag sobre mim
 export default SobreMim;

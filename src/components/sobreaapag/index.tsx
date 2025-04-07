@@ -58,6 +58,6 @@ const SobreaPag = () => {
         </div>
     );
 };
-
+//Essa aqui explica o que é o site e propósitos, no caso é o componente principal que aparece nela
 export default SobreaPag;
 
